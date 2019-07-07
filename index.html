@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Common-Utils</title>
+    <script src="./src/pinyin.js"></script>
+</head>
+<body>
+    <h1>Common-Utils</h1>
+    <div class="pinyin">
+        <input type="text" name="pinyin" id="pinyin">
+        <button onclick="transformH()">转</button>
+        <span id="result"></p>
+    </div>
+
+    <script type="text/javascript">
+    // document.getElementById('pinyin').value
+    transformH = function() {
+        const py = pinyin(document.getElementById('pinyin').value);
+        const snode = document.getElementById('result');
+        snode.innerText = py;
+        console.log('%c 🍣 document.getElementById(pinyin).value: ', 'font-size:20px;background-color: #2EAFB0;color:#fff;', document.getElementById('pinyin').value);
+    };
+    </script>
+    <script src="./src/console.js"></script>
+</body>
+</html>

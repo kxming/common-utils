@@ -665,7 +665,7 @@ const COLLATOR = new Intl.Collator(['zh-CN']);
 const firstHanziCharCode = 19968; // 0x4e00
 const lastHanziCharCode = 40869; // 0x9FA5
 
-export default function pinyin(target) {
+function pinyin(target) {
   // 非字符
   if (typeof target !== 'string') {
     return target;
