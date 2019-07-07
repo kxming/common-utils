@@ -1,0 +1,22 @@
+{
+  "name": "common-utils",
+  "version": "1.0.0",
+  "description": "常用辅助工具函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kxming/common-utils.git"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "kxming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kxming/common-utils/issues"
+  },
+  "homepage": "https://github.com/kxming/common-utils#readme"
+}
